@@ -3,10 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FACILITIES</title>
+    <title>FACILITIES - Active Life Centre</title>
+    <!-- link to Bootstrap minified CSS using CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    
+
+        <header>
+
+        <!-- navigation starts here-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-active-life-centre.svg" alt="Active Life Centre Logo" width="140">
+                </a>
+                <button class="navbar-help-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation button">
+                    <span class="navbar-btn-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">POLICIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PROGRAMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="facilities.html">FACILITIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MEMBERSHIPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-warning text-white">HELP</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+
+        <!-- Our Facilities Section -->
+        <section class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <h2>OUR FACILITIES</h2>
+                <p>Our Facilities are well kept and inspected daily. We have a wide range of activities that take place at the centre. Checkout witch one is best suited for you!</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/recreation-center-building.avif" class="img-fluid rounded" alt="Recreation Centre Image">
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section class="facilities-section">
+            <div class="row">
+                <!-- Ice Rink -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card facility-card h-100">
+                        <h3 class="card-header text-center">ICE RINK</h3>
+                        <img src="images/ice-rink.avif" class="card-img-top" alt="Ice Rink">
+                        <div class="card-body">
+                            <p class="card-text">Our Ice rink is maintain daily so you have a smooth skating experience.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-warning text-white">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pool -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card facility-card h-100">
+                         <h3 class="card-header text-center">POOL</h3>
+                        <img src="images/indoor-pool.avif" class="card-img-top" alt="Pool">
+                        <div class="card-body">
+                            <p class="card-text">We offer public swimming, swimming lessons, and more!</p>
+                        </div>
+                         <div class="card-footer">
+                            <button type="button" class="btn btn-warning text-white">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Steam Room -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card facility-card h-100">
+                         <h3 class="card-header text-center">STEAM ROOM</h3>
+                        <img src="images/steam-room.avif" class="card-img-top" alt="Steam Room">
+                        <div class="card-body">
+                           <p class="card-text">Come enjoy our well kept steam room.</p>
+                        </div>
+                         <div class="card-footer">
+                            <button type="button" class="btn btn-warning text-white">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gym -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card facility-card h-100">
+                         <h3 class="card-header text-center">GYM</h3>
+                        <img src="images/gym.avif" class="card-img-top" alt="Gym">
+                        <div class="card-body">
+                           <p class="card-text">Enjoy fun activities in our gym!</p>
+                        </div>
+                         <div class="card-footer">
+                            <button type="button" class="btn btn-warning text-white">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Fitness Studio -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card facility-card h-100">
+                         <h3 class="card-header text-center">FITNESS STUDIO</h3>
+                        <img src="images/fitness-studio.avif" class="card-img-top" alt="Fitness Studio">
+                        <div class="card-body">
+                           <p class="card-text">Looking to get in shape? Come check out our fitness studio!</p>
+                        </div>
+                         <div class="card-footer">
+                            <button type="button" class="btn btn-warning text-white">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-4 mt-5">
+        <div class="container">
+            <div class="row-align-items-center">
+                <div class="row-md-3 text-start">
+                     <a class="navbar-brand" href="#">
+                        <img src="images/logo-active-life-centre.svg" alt="Active Life Centre Logo" width="140">
+                     </a>
+                </div>
+                <div class="row-md-6 text-center">
+                    <!-- facebook icon -->
+                    <a class="text-white mx-2" href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg></a>
+                    <!-- tiktok icon -->
+                    <a class="text-white mx-2" href="https://www.tiktok.com/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M21 8v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5"/><path d="M10 12a3 3 0 1 0 3 3V6c.333 1 1.6 3 4 3"/></g></svg></a>
+                    <!-- instagram icon -->
+                    <a class="text-white mx-2" href="https://www.instagram.com/heidythaw/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/></svg></a>
+                <div class="row-md-3 text-end">
+                    <p>&copy; Copyright Active Life Centre 2025</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> 
 </body>
 </html>
